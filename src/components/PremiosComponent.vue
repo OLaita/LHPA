@@ -62,7 +62,7 @@ export default defineComponent({
   components: {
     Carousel,
     Slide,
-    radioParticipantes,
+    radioParticipantes
     // Pagination,
     // Navigation,
   },
@@ -90,6 +90,7 @@ export default defineComponent({
     },
     mounted() {
       this.retrieveAwards();
+
     }
 });
 
