@@ -7,9 +7,11 @@ import './assets/style.css'
 
 
 import router from './router'
+import store from './store'
 
 const appAwards = createApp(App)
 
 appAwards.use(router)
+appAwards.use(store)
 
 appAwards.mount('#app')
